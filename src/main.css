@@ -79,3 +79,38 @@ footer {
     display: flex;
     align-items: center;
 }
+
+/* hero styles */
+
+.h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 2.56px;
+    color: #000000;
+}
+.text-gray {
+    color: #757575;
+}
+
+.hero .h1 {
+    width: 70%;
+    margin: 0;
+}
+
+.hero {
+    padding: 120px 0;
+}
+
+/* gallery styles */
+
+.gallery-wrapper {
+    display: flex;
+    margin: 0 -12px;
+}
+
+.column {
+    margin: 0 12px;
+}

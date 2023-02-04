@@ -177,3 +177,47 @@ footer {
     letter-spacing: 0.28px;
     color: #000000;
 }
+
+/* Experience */
+
+.experience-column {
+    display: flex;   
+}
+.experience-column .column {
+    width: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+}
+.experience-column h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+.experience-column .light-gray {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    color: #525252;
+}
+
+.block {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.block:first-child {
+    padding-top: 0;
+}
+.block:last-child {
+    border-bottom: none;
+}
